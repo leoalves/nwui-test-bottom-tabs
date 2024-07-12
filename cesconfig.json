@@ -1,0 +1,52 @@
+{
+  "cesVersion": "2.11.8",
+  "projectName": "bottom-tabs",
+  "packages": [
+    {
+      "name": "nativewindui",
+      "type": "styling",
+      "options": {
+        "selectedComponents": [
+          "action-sheet",
+          "activity-indicator",
+          "activity-view",
+          "avatar",
+          "bottom-sheet",
+          "date-picker",
+          "picker",
+          "progress-indicator",
+          "ratings-indicator",
+          "selectable-text",
+          "slider",
+          "text",
+          "toggle"
+        ]
+      }
+    },
+    {
+      "name": "expo-router",
+      "type": "navigation",
+      "options": {
+        "type": "stack"
+      }
+    }
+  ],
+  "flags": {
+    "noGit": false,
+    "noInstall": false,
+    "overwrite": false,
+    "importAlias": true,
+    "packageManager": "npm",
+    "eas": false
+  },
+  "packageManager": {
+    "type": "npm",
+    "version": "10.7.0"
+  },
+  "os": {
+    "type": "Darwin",
+    "platform": "darwin",
+    "arch": "arm64",
+    "kernelVersion": "23.5.0"
+  }
+}
